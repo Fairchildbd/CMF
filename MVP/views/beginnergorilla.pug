@@ -1,0 +1,255 @@
+extends layout
+
+block content
+  .main.container.clearfix
+    .row
+      #accordion.col-sm-8
+        .card
+          #headingOne.card-header
+            h5.mb-0
+              button.btn.btn-link(data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                | Week #1
+          #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne') Completed
+        .card
+          #headingTwo.card-header
+            h5.mb-0
+              button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                | Week #2
+          #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseTwo', aria-expanded='true', aria-controls='collapseTwo') Completed
+        .card
+          #headingOne.card-header
+            h5.mb-0
+              button.btn.btn-link(data-toggle='collapse', data-target='#collapseThree', aria-expanded='true', aria-controls='collapseThree')
+                | Week #3
+          #collapseThree.collapse.show(aria-labelledby='headingThree', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseThree', aria-expanded='true', aria-controls='collapseThree') Completed
+        .card
+          #headingOne.card-header
+            h5.mb-0
+              button.btn.btn-link(data-toggle='collapse', data-target='#collapseFour', aria-expanded='true', aria-controls='collapseFour')
+                | Week #4
+          #collapseFour.collapse.show(aria-labelledby='headingFour', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseFour', aria-expanded='true', aria-controls='collapseFour') Completed
+        .card
+          #headingOne.card-header
+            h5.mb-0
+              button.btn.btn-link(data-toggle='collapse', data-target='#collapseFive', aria-expanded='true', aria-controls='collapseFive')
+                | Week #5
+          #collapseFive.collapse.show(aria-labelledby='headingFive', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseFive', aria-expanded='true', aria-controls='collapseFive') Completed
+        .card
+          #headingSix.card-header
+            h5.mb-0
+              button.btn.btn-link(data-toggle='collapse', data-target='#collapseSix', aria-expanded='true', aria-controls='collapseSix')
+                | Week #6
+          #collapseSix.collapse.show(aria-labelledby='headingSix', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning(data-toggle='collapse', data-target='#collapseSix', aria-expanded='true', aria-controls='collapseSix') Completed
+        .card
+          #headingSeven.card-header
+            h5.mb-0
+              button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseSeven', aria-expanded='false', aria-controls='collapseSeven')
+                | Week #7
+          #collapseSeven.collapse(aria-labelledby='headingSeven', data-parent='#accordion')
+            .card-body
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Squat 10 reps
+                  li.list-group-item Bench Press 10 reps
+                  li.list-group-item Bent Over Row 10 reps
+                  li.list-group-item Sit Up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 3 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item Power Clean 8 reps
+                  li.list-group-item Box Jump 5 reps
+                  li.list-group-item KB Stifflegged deadlift 8 reps
+                  li.list-group-item V-up 10 reps
+              .card(style='width: 18rem;')
+                .card-header
+                  | 4 rounds of:
+                ul.list-group.list-group-flush
+                  li.list-group-item KB Power Clean 5 reps
+                  li.list-group-item Push Up 10 reps
+                  li.list-group-item Plank 30 second hold
+                  li.list-group-item High row 8 reps
+              button.btn.btn-warning.collapsed(data-toggle='collapse', data-target='#collapseSeven', aria-expanded='false', aria-controls='collapseSeven') Completed
+      .col-sm-4
+        .card(style='width: 18rem;')
+          .card-header
+            | Featured
+          ul.list-group.list-group-flush
+            li.list-group-item
+              button.btn.btn-link(type='button') Squat
+            li.list-group-item 
+              button.btn.btn-link(type='button') Bent Over Row
+            li.list-group-item
+              button.btn.btn-link(type='button') Sit Up
+            li.list-group-item
+              button.btn.btn-link(type='button') Power Clean
+            li.list-group-item
+              button.btn.btn-link(type='button') Bench Press
+            li.list-group-item
+              button.btn.btn-link(type='button') Plank
+            li.list-group-item
+              button.btn.btn-link(type='button') V-up
+            li.list-group-item
+              button.btn.btn-link(type='button') Stifflegged deadlift
+            li.list-group-item
+              button.btn.btn-link(type='button') High Row
+            li.list-group-item
+              button.btn.btn-link(type='button') Push Up
